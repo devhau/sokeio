@@ -37,7 +37,7 @@ $ php artisan migrate
 
 
 email contact: nguyenvanhaudev@gmail.com
-
+https://hau.xyz
 ## License
 
 [MIT](./LICENSE)
