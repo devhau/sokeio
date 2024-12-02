@@ -45,10 +45,10 @@ jobs:
         env:
           dev: no
 
-      - name: remove .git
-        run: |
-          rm -R .git
-          rm ~/.gitconfig
+      #- name: remove .git
+      #  run: |
+      #    rm -R .git
+      #    rm ~/.gitconfig
       - name: push git branch kit
         uses: sokeio/push-git-branch-kit@main
         env:
